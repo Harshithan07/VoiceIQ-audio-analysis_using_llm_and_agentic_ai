@@ -1,2 +1,29 @@
-.env
-reports/
+# Ignore Python virtual environments
+venv/
+.env/
+*.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore hidden Git folders from wrongly copied repos
+.git/
+.gitmodules
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore temporary folders
+temp/
+tmp/
+
