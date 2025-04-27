@@ -77,11 +77,6 @@ Update the Python code to use your `keys`.
 
 1. Generate Call Insights:
 ```
-python individual_call_transform.py
-```
-
-or use the modular version:
-```
 python class_call-individual_call_transform.py
 ```
 This will create structured JSON and HTML reports under /reports/.
